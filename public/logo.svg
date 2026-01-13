@@ -1,7 +1,11 @@
-<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
-  <!-- Simple line graph with upward trend -->
-  <path d="M10 100 Q30 90 50 70 Q70 50 90 30 Q110 10 120 20" stroke="#00FF00" stroke-width="4" fill="none" stroke-linecap="round"/>
-  <!-- Optional grid lines for chart feel -->
-  <line x1="10" y1="100" x2="10" y2="10" stroke="#333" stroke-width="1"/>
-  <line x1="10" y1="100" x2="120" y2="100" stroke="#333" stroke-width="1"/>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Line chart with upward trend -->
+  <path d="M20 140 Q50 130 70 110 Q90 90 110 70 Q130 50 150 40 Q170 30 180 20" stroke="black" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Grid lines for chart feel -->
+  <line x1="20" y1="140" x2="20" y2="20" stroke="black" stroke-width="2"/>
+  <line x1="20" y1="140" x2="180" y2="140" stroke="black" stroke-width="2"/>
+  
+  <!-- $checkprice text -->
+  <text x="100" y="180" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="black">$checkprice</text>
 </svg>
