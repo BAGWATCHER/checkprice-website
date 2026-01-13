@@ -1,5 +1,8 @@
 {
   "name": "checkprice-website",
   "version": "1.0.0",
-  "description": "Landing page for $checkprice token"
+  "description": "Landing page for $checkprice token",
+  "scripts": {
+    "build": "echo 'No build required for static site'"
+  }
 }
